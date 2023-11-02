@@ -1,25 +1,53 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Paulina's portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulina's Portfolio</title>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+
+    
 </head>
 <body>
-    <nav>
-      
-        <ul class="horizontal-menu">
-          <li><a href="portfolio.html">Home</a></li>
-          <li><a href="projects.html">projects</a></li>
-          <li><a href="contactform.html">contacts</a></li>
-        </ul>
-      </nav>
-      <div class="image-container">
-      <img src="https://contents.bebee.com/users/id/8GZzU64625657993f4/_avatar-rOq4l-400.png"/>
-      <h1>About Me:  </h1>
-      <p>
-      My name is Paulina Ndunge Wambua.A student at Dedan kimathi University of Technology.
-      I am a second year student persuing Bachelor of Science in Computer science.
-    I am a group leader for group 9 in this unit.
-    I love coding.
-      </p>
-  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="portfolio.html">Paulina's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactform.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://contents.bebee.com/users/id/8GZzU64625657993f4/_avatar-rOq4l-400.png"  class="img-fluid rounded-circle" alt="Paulina's Profile Picture">
+            </div>
+            <div class="col-md-8">
+                <h1>About Me</h1>
+                <p>
+                    My name is Paulina Ndunge Wambua.</p><p> I am a student at Dedan Kimathi University of Technology.</p>
+                   <p> I am a second-year student pursuing a Bachelor of Science in Computer Science.</p>
+                   <p>I love coding.</p> 
+                </p>
+            </div>
+        </div>
+    </div>
+
+   
 </body>
+</html>
